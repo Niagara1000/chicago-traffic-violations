@@ -3,9 +3,6 @@
 
 # # IMPORTING NECESSARY LIBRARIES
 
-# In[4]:
-
-
 import pandas as pd
 import matplotlib.pyplot as plt
 from   datetime import date, datetime, time
@@ -21,9 +18,6 @@ import plotly.express as px
 # --------------
 
 # # IMPORTING DATA AND CREATING DATAFRAME
-
-# In[5]:
-
 
 df = pd.read_csv('Speed_Camera_Violations.csv')
 df.head()
